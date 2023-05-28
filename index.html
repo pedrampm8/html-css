@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoomit</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="icon" href="./img/images.png">
+</head>
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="humber"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#ffffff"><path d="M22 20c.553 0 1 .448 1 1s-.447 1-1 1H7c-.553 0-1-.448-1-1s.447-1 1-1zM6 5.5c2.757 0 5 2.243 5 5 0 1.017-.309 1.962-.833 2.753l3.54 3.54c.391.391.391 1.023 0 1.414-.195.195-.451.293-.707.293-.256 0-.512-.098-.707-.293l-3.54-3.54c-.791.524-1.736.833-2.753.833-2.757 0-5-2.243-5-5s2.243-5 5-5zM22 14c.552 0 1 .448 1 1l-.007.117c-.058.497-.48.883-.993.883h-7c-.553 0-1-.448-1-1s.447-1 1-1zM6 7.5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zM22 8c.552 0 1 .448 1 1l-.007.117c-.058.497-.48.883-.993.883h-7c-.553 0-1-.448-1-1s.447-1 1-1zm0-6c.553 0 1 .448 1 1s-.447 1-1 1H7c-.553 0-1-.448-1-1s.447-1 1-1z"></path></svg></div>
+        <ul>
+            <li><a href="#"><div id="pedroomit"><svg width="106" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 25.16" style="--z-text: #ffffff; --z-logo: var(--primary-1);"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="z-logo" d="M13.49,0H43.17a0,0,0,0,1,0,0L28.94,16H21.62a0,0,0,0,1,0,0L30.9,5.56a0,0,0,0,0,0,0H8.58L13.47,0h0"></path><polygon class="z-logo" points="29.71 25.16 0 25.16 14.25 9.16 21.6 9.16 12.27 19.62 34.62 19.62 29.71 25.16"></polygon><polygon class="z-text" points="62.27 6.16 49.64 6.16 52.78 2.66 70.47 2.66 56.3 19 69.47 19 67.19 22.5 48.1 22.5 62.27 6.16"></polygon><path class="z-text" d="M77.7,22.5a5.84,5.84,0,0,1-5.83-5.83V8.49a5.62,5.62,0,0,1,1.71-4.12A5.62,5.62,0,0,1,77.7,2.66h8.17A5.62,5.62,0,0,1,90,4.37,5.62,5.62,0,0,1,91.7,8.49v8.17a5.84,5.84,0,0,1-5.83,5.83Zm-2.33-5.83A2.33,2.33,0,0,0,77.7,19h8.17a2.33,2.33,0,0,0,2.33-2.33V8.49a2.33,2.33,0,0,0-2.33-2.33H77.7a2.33,2.33,0,0,0-2.33,2.33Z"></path><path class="z-text" d="M101.17,22.5a5.84,5.84,0,0,1-5.83-5.83V8.49A5.62,5.62,0,0,1,97,4.37a5.62,5.62,0,0,1,4.12-1.71h8.17a5.62,5.62,0,0,1,4.12,1.71,5.62,5.62,0,0,1,1.71,4.12v8.17a5.84,5.84,0,0,1-5.83,5.83Zm-2.33-5.83A2.33,2.33,0,0,0,101.17,19h8.17a2.33,2.33,0,0,0,2.33-2.33V8.49a2.33,2.33,0,0,0-2.33-2.33h-8.17a2.33,2.33,0,0,0-2.33,2.33Z"></path><rect class="z-text" x="143.52" y="2.66" width="3.5" height="19.83"></rect><polygon class="z-text" points="161.83 6.16 161.83 22.5 158.33 22.5 158.33 6.16 150.16 6.16 150.16 2.66 170 2.66 170 6.16 161.83 6.16"></polygon><polygon class="z-text" points="136.21 2.66 129.32 9.35 122.44 2.66 118.82 2.66 118.82 22.5 122.32 22.5 122.32 7.19 129.32 13.83 136.32 7.19 136.32 22.5 139.82 22.5 139.82 2.66 136.21 2.66"></polygon></g></g></svg></div></a></li>
+            <li><a href="#"><div class="bar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#ffffff"><path d="M8 0v3H6V0h2zM4 0v3H2V0h2zm8 0v3h-2V0h2zM15 5H1c-.6 0-1 .4-1 1v7c0 1.7 1.3 3 3 3h7c1.7 0 3-1.3 3-3v-2c1.7 0 3-1.3 3-3V6c0-.6-.4-1-1-1zm-1 3c0 .6-.4 1-1 1V7h1v1z"></path></svg> &nbsp; <p> زومیت  من</p></div></a></li>
+            <li><a href="#"><div class="bar haverBar"> <p><b>+</b> محصولات</p></a>
+                <div class="haverBarr">
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"> گوشی موبایل</a></li>
+                            <li><a href="#"> تبلت</a></li>
+                            <li><a href="#"> لپ‌تاپ</a></li>
+                            <li><a href="#"> تلویزیون</a></li>
+                        </ul>
+                    </div>
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"><div> فناوری ایران</div></a></li>
+                            <li><a href="#"><div> نرم افزار و اپلیکیشن</div></a></li>
+                            <li><a href="#"><div> سیستم عامل</div></a></li>
+                            <li><a href="#"><div> اینترنت و شبکه</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"><div> آموزش کامپیوتر</div></a></li>
+                            <li><a href="#"><div> آموزش موبایل</div></a></li>
+                            <li><a href="#"><div> آموزش عکاسی</div></a></li>
+                            <li><a href="#"><div> شاتر</div></a></li>
+                        </ul>
+                    </div>
+            </div></div></li>
+            <li><a href="#"><div class="bar haverBar"> <p><b>+</b> فناوری</p></a>
+                <div class="haverBarr">
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"> گوشی موبایل</a></li>
+                            <li><a href="#"> تبلت</a></li>
+                            <li><a href="#"> لپ‌تاپ</a></li>
+                            <li><a href="#"> تلویزیون</a></li>
+                            <li><a href="#"> ساعت هوشمند</a></li>
+                            <li><a href="#"> سخت افزار</a></li>
+                        </ul>
+                    </div>
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"><div> فناوری ایران</div></a></li>
+                            <li><a href="#"><div> نرم افزار و اپلیکیشن</div></a></li>
+                            <li><a href="#"><div> سیستم عامل</div></a></li>
+                            <li><a href="#"><div> اینترنت و شبکه</div></a></li>
+                            <li><a href="#"><div> بازی</div></a></li>
+                            <li><a href="#"><div> ارز دیجیتال</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"><div> آموزش کامپیوتر</div></a></li>
+                            <li><a href="#"><div> آموزش موبایل</div></a></li>
+                            <li><a href="#"><div> آموزش عکاسی</div></a></li>
+                            <li><a href="#"><div> شاتر</div></a></li>
+                        </ul>
+                    </div>
+            </div></div></li>
+            <li><a href="#"><div class="bar"> <p> راهنمای خرید</p></div></a></li>
+            <li><a href="#"><div class="bar"> <p> بررسی</p></div></a></li>
+            <li><a href="#"><div class="bar"> <p> ویدئو</p></div></a></li>
+            <li><a href="#"><div class="bar haverBar"> <p><b>+</b> زومیت</p></a>
+                <div class="haverBarr">
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"> گوشی موبایل</a></li>
+                            <li><a href="#"> تبلت</a></li>
+                            <li><a href="#"> لپ‌تاپ</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"><div> فناوری ایران</div></a></li>
+                            <li><a href="#"><div> نرم افزار و اپلیکیشن</div></a></li>
+                            <li><a href="#"><div> سیستم عامل</div></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="hoverBarDiv">
+                        <ul>
+                            <li><a href="#"><div> آموزش کامپیوتر</div></a></li>
+                            <li><a href="#"><div> آموزش موبایل</div></a></li>
+
+                        </ul>
+                    </div>
+            </div></div></li>
+            <li><a href="#"><div class="bar"><div class="search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" fill="var(--header--search-icon)"><path d="M18.449 16.751l-4.586-4.586a7.222 7.222 0 1 0-1.7 1.7l4.586 4.586zM2.4 8A5.6 5.6 0 1 1 8 13.6 5.6 5.6 0 0 1 2.4 8z" transform="translate(2 2)"></path></svg></div>&nbsp; <p> جستجو </p></div></a></li>
+            <li><div id="hidden"></div></li>
+            <li><a href="#"><div id="profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="22" height="22" fill="#ffffff"><path d="M8 0c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8zm0 1.333C4.324 1.333 1.333 4.324 1.333 8c0 1.958.854 3.716 2.203 4.937.443-1.316 1.665-2.27 3.13-2.27h2.667c1.466 0 2.69.954 3.132 2.269 1.348-1.22 2.202-2.979 2.202-4.936 0-3.676-2.991-6.667-6.667-6.667zM8 4c1.104 0 2 .995 2 2.222v.556C10 8.005 9.104 9 8 9s-2-.995-2-2.222v-.556C6 4.995 6.896 4 8 4z" transform="translate(-716 -1131) translate(716 1131)"></path></svg></div></a></li>
+        </ul>
+    </nav>
+    <!-- header -->
+    <div>
+        <div id="titr">
+            <a href="#"> <figure class="titr titrPont"> <img src="./img/h1.webp" alt="h1"> <figcaption class="fig1">کانال سینمایی فیلمزی متولد شد | کانال جدید زومجی</figcaption></figure></a>
+            <a href="#"> <figure class="titr"> <img src="./img/h2.webp" alt="h2"> <figcaption class="fig1">Xperia 1 V سونی؛ هرآنچه تاکنون از پرچم‌دار ۲۰۲۳ غول ژاپنی می‌دانیم و آنچه می‌خواهیم ببینیم</figcaption></figure></a>
+            <a href="#"> <figure class="titr"> <img src="./img/h3.webp" alt="h3"> <figcaption class="fig2">سرطان کبد ؛ علائم، درمان و هرآنچه باید بدانید</figcaption></figure></a>
+        </div>
+        <div id="shortcut">
+            <div class="shortcutRight">
+                <h3><span class="redline">|&nbsp;</span> با چشم باز خرید کنید </h3><br>
+                <h4>زومیت شما را برای انتخاب بهتر و خرید ارزان‌تر راهنمایی می‌کند</h4><br>
+                
+                <div class="shortcutRightDiv"><a href="#"> &nbsp;ورود به بخش محصولات &nbsp; <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="#e4002b"><path d="M9.3 1.3L7.9 2.7 12.2 7 0 7 0 9 12.2 9 7.9 13.3 9.3 14.7 16 8z" transform="translate(-844 -1003) translate(844 1003) rotate(-180 8 8)"></path></svg> </a></div>
+            </div>
+            <div class="imgShortcut">
+                <div class="arrowShortcut"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>
+                <div class="itemShortcut">
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path d="M33 19c-1.654 0-3 1.346-3 3v36c0 1.654 1.346 3 3 3h22c1.654 0 3-1.346 3-3V22c0-1.654-1.346-3-3-3H33zm22 44H33c-2.757 0-5-2.243-5-5V22c0-2.757 2.243-5 5-5h22c2.757 0 5 2.243 5 5v36c0 2.757-2.243 5-5 5zm-13-8c0 1.104.896 2 2 2 1.105 0 2-.896 2-2s-.895-2-2-2c-1.104 0-2 .896-2 2z"></path></svg></div><p>گوشی</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path d="M29 19c-1.654 0-3 1.346-3 3v36c0 1.654 1.346 3 3 3h30c1.654 0 3-1.346 3-3V22c0-1.654-1.346-3-3-3H29zm30 44H29c-2.757 0-5-2.243-5-5V22c0-2.757 2.243-5 5-5h30c2.757 0 5 2.243 5 5v36c0 2.757-2.243 5-5 5zm-17-8c0 1.104.896 2 2 2s2-.896 2-2-.896-2-2-2-2 .896-2 2z"></path></svg></div><p>تبلت</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path d="M62 45c-.552 0-1-.448-1-1V28c0-1.654-1.346-3-3-3H30c-1.654 0-3 1.346-3 3v16c0 .552-.448 1-1 1s-1-.448-1-1V28c0-2.757 2.243-5 5-5h28c2.757 0 5 2.243 5 5v16c0 .552-.448 1-1 1M45 31h-2c-.552 0-1-.448-1-1s.448-1 1-1h2c.552 0 1 .448 1 1s-.448 1-1 1M23 50v2c0 1.654 1.346 3 3 3h36c1.654 0 3-1.346 3-3v-2H52v1c0 .552-.448 1-1 1H37c-.552 0-1-.448-1-1v-1H23zm39 7H26c-2.757 0-5-2.243-5-5v-3c0-.552.448-1 1-1h15c.552 0 1 .448 1 1v1h12v-1c0-.552.448-1 1-1h15c.552 0 1 .448 1 1v3c0 2.757-2.243 5-5 5z" transform="translate(-636.000000, -649.000000) translate(636.000000, 649.000000)"></path></svg></div><p>لپتاب</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path fill-rule="evenodd" d="M66 53H22c-.552 0-1-.448-1-1V20c0-.552.448-1 1-1h44c.552 0 1 .448 1 1v32c0 .552-.448 1-1 1zm-1-6v4H23v-4h42zm0-26v24H23V21h42zM44 54c.552 0 1 .448 1 1l.001 2.013c6.58.172 11.17 1.978 11.371 2.058.512.205.761.787.556 1.3-.156.391-.532.629-.929.629-.123 0-.248-.023-.37-.071C55.581 60.91 50.704 59 44 59s-11.581 1.91-11.629 1.929c-.516.203-1.095-.046-1.299-.558-.205-.513.044-1.095.556-1.3.202-.08 4.792-1.886 11.372-2.058V55c0-.552.448-1 1-1z" transform="translate(-972.000000, -784.000000) translate(972.000000, 784.000000)"></path></svg></div><p>تلویزون</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path d="M52 17c.447 0 .839.296.962.726l1.81 6.333C57.164 24.432 59 26.505 59 29v6h3c.552 0 1 .448 1 1v8c0 .552-.448 1-1 1h-3v6c0 2.495-1.836 4.568-4.228 4.94l-1.811 6.335c-.122.429-.515.725-.961.725H32c-.446 0-.839-.296-.961-.725l-1.81-6.334C26.835 55.568 25 53.495 25 51V29c0-2.495 1.836-4.568 4.228-4.94l1.81-6.334c.123-.43.515-.726.962-.726h20zm.675 39h-21.35l1.429 5h18.492l1.429-5zM54 26H30c-1.654 0-3 1.346-3 3v22c0 1.654 1.346 3 3 3h24c1.654 0 3-1.346 3-3V29c0-1.654-1.346-3-3-3zm7 11h-2v6h2v-6zm-19-6c.552 0 1 .448 1 1v7h8c.552 0 1 .448 1 1s-.448 1-1 1h-9c-.552 0-1-.448-1-1v-8c0-.552.448-1 1-1zm9.245-12h-18.49l-1.43 5h21.349l-1.428-5z"></path></svg></div><p>ساعت هوشمند</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path d="M31 33c-4.411 0-8 3.589-8 8 0 4.739 4.139 8.574 9 7.934V33.066c-.336-.044-.671-.066-1-.066zm25 15.934c4.861.641 9-3.194 9-7.934s-4.153-8.567-9-7.934v15.868zM38 61h10v-2H38v2zm11 2H37c-.552 0-1-.448-1-1v-1h-2c-3.86 0-7-3.14-7-7v-3.835c-3.529-1.546-6-5.072-6-9.165 0-4.093 2.472-7.62 6.001-9.166C27.09 23.639 33.784 17 42 17h4c8.216 0 14.91 6.639 14.999 14.834C64.528 33.38 67 36.907 67 41c0 5.514-4.486 10-10 10-.73 0-1.478-.086-2.223-.256-.454-.104-.777-.508-.777-.975V32.231c0-.466.322-.87.777-.974 1.431-.328 2.868-.329 4.199-.061C58.559 24.401 52.898 19 46 19h-4c-6.898 0-12.559 5.401-12.976 12.196 1.33-.268 2.768-.267 4.199.061.455.104.777.508.777.974v17.538c0 .467-.323.871-.777.975-1.443.33-2.887.326-4.223.055V54c0 2.757 2.243 5 5 5h2v-1c0-.552.448-1 1-1h12c.552 0 1 .448 1 1v4c0 .552-.448 1-1 1z" transform="translate(-524.000000, -649.000000) translate(524.000000, 649.000000)"></path></svg></div><p>هدفون</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg width="88" height="80" viewBox="0 0 88 80" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero"><path d="M66 39a1 1 0 0 1 0 2H22a1 1 0 0 1 0-2h44z"></path><path d="M56 23H32a1 1 0 0 0-.848.47l-10 16A1 1 0 0 0 21 40v16a1 1 0 0 0 1 1h44a1 1 0 0 0 1-1V40a1 1 0 0 0-.152-.53l-10-16A1 1 0 0 0 56 23zm-.554 2L65 40.286V55H23V40.284L32.553 25h22.893z"></path><path d="M58 47a1 1 0 0 1 0 2H30a1 1 0 0 1 0-2h28z"></path></g></svg></div><p>هارد</p></div>
+                    <div class="itemShortcutDiv"><div class="imgShortcutimg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 80"><path d="M44 34c-.552 0-1-.448-1-1V21c0-.552.448-1 1-1s1 .448 1 1v12c0 .552-.448 1-1 1M32 54c-.552 0-1-.448-1-1v-3h-3c-.552 0-1-.448-1-1s.448-1 1-1h3v-3c0-.552.448-1 1-1s1 .448 1 1v3h3c.552 0 1 .448 1 1s-.448 1-1 1h-3v3c0 .552-.448 1-1 1m9.156-2h5.688c.398 0 .757.235.916.599C49.196 55.88 52.43 58 56 58c4.962 0 9-4.038 9-9s-4.038-9-9-9H32c-4.962 0-9 4.038-9 9s4.038 9 9 9c3.569 0 6.804-2.12 8.24-5.401.159-.364.519-.599.916-.599M56 60c-4.143 0-7.916-2.334-9.788-6h-4.423c-1.874 3.666-5.646 6-9.789 6-6.065 0-11-4.935-11-11s4.935-11 11-11h24c6.065 0 11 4.935 11 11s-4.935 11-11 11m1-12.5c0 .828.672 1.5 1.5 1.5s1.5-.672 1.5-1.5c0-.829-.672-1.5-1.5-1.5s-1.5.671-1.5 1.5zm-4 4c0 .828.672 1.5 1.5 1.5.829 0 1.5-.672 1.5-1.5 0-.829-.671-1.5-1.5-1.5-.828 0-1.5.671-1.5 1.5z" transform="translate(-1308.000000, -514.000000) translate(1308.000000, 514.000000)"></path></svg></div><p>کنسول بازی</p></div>
+                </div>
+                <div class="arrowShortcut"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>
+                
+            </div>
+            <div class="shortcutRightDiv1"><a href="#"> &nbsp;ورود به بخش محصولات &nbsp; <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="#e4002b"><path d="M9.3 1.3L7.9 2.7 12.2 7 0 7 0 9 12.2 9 7.9 13.3 9.3 14.7 16 8z" transform="translate(-844 -1003) translate(844 1003) rotate(-180 8 8)"></path></svg> </a></div>
+        </div>
+    </div>
+    <!-- main -->
+    <main><br><br>
+        <div class="pishnahad">
+            <div class="titrPishnahad">
+                <h3><span class="redline">|&nbsp;</span> پیشنهاد سردبیر </h3><br><br>
+                <div class="zirPishnahad">
+                    <a href=""><div class="selecter selector">
+                        مطلب
+                    </div></a>
+                    <a href=""><div class="selecter">
+                        ویدیو
+                    </div></a>
+                </div>
+                <div id="photosPishnahad">
+                    <div class="arrowPishnahad"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>
+                    <div class="photoPishnahad photoPishnahadMedia"><a href="#"><img src="./img/p1.webp" alt="photo"></a><p>از صابر راستی‌کردار، خالق فونت چشم‌نواز وزیر، برای غلبه‌ بر سرطان حمایت کنیم</p>
+                        <div class="pishnahadComment"> 
+                        <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                        <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                        <div class="pishnahadCommentDiv1">&nbsp;</div>
+                        <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                    </div></div>
+                    <div class="photoPishnahad photoPishnahadMedia"><a href="#"><img src="./img/p2.webp" alt="photo"></a><p>نماینده مجلس: مسئولان بگویند پول فروش فیلترشکن‌ها به جیب چه کسانی می‌رود؟</p>
+                        <div class="pishnahadComment"> 
+                            <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                            <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                            <div class="pishnahadCommentDiv1">&nbsp;</div>
+                            <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                        </div>
+                    </div>
+                    <div class="photoPishnahad"><a href="#"><img src="./img/p3.webp" alt="photo"></a><p>بازار موبایل، تحت تاثیر ممنوعیت آیفون ۱۴؛ واردات گوشی‌های دست دوم با قیمت ۱۲۰ میلیون تومان</p>
+                        <div class="pishnahadComment"> 
+                            <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                            <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                            <div class="pishnahadCommentDiv1">&nbsp;</div>
+                            <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                        </div></div>
+                    <div class="photoPishnahad"><a href="#"><img src="./img/p4.webp" alt="photo"></a><p>تماشا کنید: این آیفون ۱۵ اولترا است!</p>
+                        <div class="pishnahadComment"> 
+                            <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                            <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                            <div class="pishnahadCommentDiv1">&nbsp;</div>
+                            <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                        </div></div>
+                    <div class="arrowPishnahad"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>    
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- slider -->
+    <div id="slider">
+        <div class="slider slider1">
+            <div class="porbazdid">
+                <div><h3><span class="redline">|&nbsp;</span> پربازدیدترین مطالب</h3><br></div></div>
+                <div class="porbazdidAks1"><a href="#"><img src="./img/porbazdid1.webp" alt="porbazdid"></a><div class="porbadidMatn"><p>استعلام سابقه جبهه با کد ملی </p></div>
+
+                <div class="porbazdidsat">
+                    <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                    مطالئه 6 
+
+                </div>
+                <div class="porbazdidtag">
+
+                    <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                     3 روز پیش  
+                </div>
+            </div>
+                <div class="porbazdidAks2">
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/porbazdid2.webp" alt="porbazdid"></a><div class="porbadidMatn"><p>آموزش ساخت اپل آیدی Apple ID (جدیدترین روش)</p></div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+
+                 </div>
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/porbazdid3.webp" alt="porbazdid"></a><div class="porbadidMatn"><p>اتحادیه اروپا شارژ فوق‌ سریع گوشی‌ها را ممنوع می‌کند؟</p></div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+                </div>
+            </div>
+            <div class="porbazdid">
+                <div><h3><span class="redline">|&nbsp;</span>راهنمای خرید</h3><br></div></div>
+                
+
+                <div class="porbazdidAks2">
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/porbazdid4.webp" alt="porbazdid"></a><div class="porbadidMatn"> <p> بهترین گوشی های پوکو شیائومی </p> </div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+
+                 </div>
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/porbazdid5.webp" alt="porbazdid"></a><div class="porbadidMatn"> <p> بهترین گوشی های گیمینگ سامسونگ؛ از ۶ میلیون تا ۶۰ میلیون تومان [ردیبهشت ۱۴۰۲] </p> </div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+                </div>
+            </div>
+            <div class="porbazdid">
+                <div><h3><span class="redline">|&nbsp;</span>بررسی‌ها</h3><br></div></div>
+                <div class="porbazdidAks1"><a href="#"><img src="./img/porbazdid6.webp" alt="porbazdid"></a><div class="porbadidMatn"><p> بررسی لپ تاپ گیمینگ ROG STRIX G16 ایسوس؛ میان‌رده صد میلیونی! </p></div>
+
+                <div class="porbazdidsat">
+                    <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                    مطالئه 6 
+
+                </div>
+                <div class="porbazdidtag">
+
+                    <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                     3 روز پیش  
+                </div>
+            </div>
+                <div class="porbazdidAks2">
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/porbazdid7.webp" alt="porbazdid"></a><div class="porbadidMatn"><p>بررسی پلی استیشن وی آر ۲؛ تجربه واقعیت مجازی راحت، هیجان‌انگیز و گران‌قیمت</p></div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+
+                 </div>
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/porbazdid8.webp" alt="porbazdid"></a><div class="porbadidMatn"><p> بررسی گلکسی A14؛ بهترین گوشی سامسونگ با یک ماه حقوق وزارت کار! </p></div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+                </div>
+            </div>
+            <div class="tabl">
+                <a href="#"><img src="./img/tabl.png" alt="tablig"></a>
+            </div>
+        </div>
+        
+        <div class="slider slider2">
+            <div class="akharinTitr">
+                <h2>آخرین مطالب</h2>
+            </div>
+            <div class="akharinSelecter">
+                <div class="akharinSelecterDiv selector1">
+                    جدیدترین مطالب
+                </div>
+                <div class="akharinSelecterDiv">
+                    علمی 🚀
+                </div>
+                <div class="akharinSelecterDiv">
+                    ایران 🔥
+                </div>
+                <div class="akharinSelecterDiv">
+                    پربحث‌ترین‌
+                </div>
+
+            </div>
+            <div class="akharin">
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> افزایش علاقه چینی‌ها برای احیای مُردگان با هوش مصنوعی </h4>
+
+                        <h6> چینی‌ها با هوش مصنوعی، چت‌بات‌هایی از افراد فوت‌شده توسعه داده‌اند که شخصیت و رفتار و حتی صدای آن‌ها را با دقت زیاد تقلید می‌کنند. </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar2.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4>سامسونگ از فروش تبلت‌هایش سود بیشتری از گوشی‌های هوشمند</h4>
+
+                        <h6> سود عملیاتی سامسونگ در سه‌ماهه‌ی اول سال جاری به ۲۲۷ میلیون دلار رسیده</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar3.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> مدل ۲۰۲۳ ردمی‌بوک ۱۴ با نسل دوازدهم پردازنده‌های اینتل</h4>
+
+                        <h6> شیائومی مدل ۲۰۲۳ لپ‌تاپ ردمی‌بوک ۱۴ را با پرازنده‌های I5 و I7 نسل دوازدهم اینتل و صفحه‌نمایش 2.8k رسماً معرفی کرد.</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar4.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> آشنایی با سوکت رله فن</h4>
+
+                        <h6> برای توضیح اهمیت سوکت رله فن باید ابتدا به تعریف خود قطعه رله در خودرو و الزام وجود این قطعه بپردازیم</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar5.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> اطلاعات و تصاویر گوگل پیکسل ۸ پرو </h4>
+
+                        <h6> ویدئویی درون‌سازمانی از گوگل به بیرون‌ درز کرده است که قابلیت جدید سنجش دمای بدن را در گوشی پیکسل ۸ پرو به‌خوبی به‌نمایش می‌گذارد.</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar6.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> مأموریت اکسیوم ۲؛ اسپیس ایکس دو شهروند عربستان را به ایستگاه فضایی بین‌المللی اعزام کرد</h4>
+
+                        <h6> مأموریت اکسیوم ۲ با حضور اولین زن فضانورد عربستان و سه فضانورد خصوصی دیگر</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar7.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> چگونه قابلیت DLSS 3 را در ویندوز ۱۰ فعال کنیم</h4>
+
+                        <h6> فناوری DLSS 3 به شما اجازه می‌دهد نرخ فریم اجرای بازی‌ها را در محیط ویندوز تا دو برابر افزایش دهید. </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar8.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4>هواوی Nova Y91 با باتری غول‌پیکر ۷۰۰۰ میلی آمپرساعتی </h4>
+
+                        <h6> هواوی از گوشی هوشمند Nova Y91 با نمایشگر ۶٫۹۵ اینچی LCD، حافظه‌ی ذخیره‌سازی ۲۵۶ گیگابایتی  </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar9.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> فیسبوک سنگین‌ترین جریمه تاریخ اروپا را متحمل شد!</h4>
+
+                        <h6> اتحادیه‌ی اروپا جریمه‌ی سنگین ۱٫۳ میلیارد دلاری برای متا در نظر گرفته و پنج ماه به این شرکت مهلت داده است که با قوانین سازگار شود. </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar10.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> فروشگاه تجهیزات سرور آساپردازش، کاربرد سرور های اچ پی در کسب و کارهای کوچک و بزرگ</h4>
+
+                        <h6> قطعا وقتی به دنبال بررسی کاربرد سرورهای اچ پی هستید، با این ابزار آشنایی دارید</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar11.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> تسهیلات ۵۰۰ میلیارد تومانی سازمان فناوری اطلاعات برای تولید گوشی ایرانی</h4>
+
+                        <h6> یکی از برنامه‌های سازمان فناوری اطلاعات تولید یک میلیون گوشی همراه داخلی است</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar12.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4>قدرتمندترین پردازنده اسنپدراگون </h4>
+
+                        <h6> نسخه‌ی اورکلاک‌شده‌ی Snapdragon 8 Gen 2 به‌زودی دردسترس سایر شرکت‌های سازنده‌ی گوشی‌های هوشمند نیز قرار خواهد گرفت. </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar13.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4>تسهیل دریافت اینماد برای مشاغل خانگی </h4>
+
+                        <h6> مشاغل خانگی آنلاینی که از وزارت کار مجوز گرفته باشند، برای دریافت اینماد نیازی به دریافت پروانه کسب از اتحادیه کسب‌وکارهای مجازی ندارند. </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar14.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4>چین اقدام متقابل علیه آمریکا را شروع کرد</h4>
+
+                        <h6> ماه‌ها پس از تحریم‌های فلج‌کننده‌ی ایالات متحده، اکنون چین از تحریم یک شرکت آمریکایی در صنعت تراشه خبر می‌دهد.</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar15.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">علامت تجاری xrProOS به‌طور مخفیانه ثبت شد</h4>
+
+                        <h6> اپل از طریق شرکتی پوششی، علامت تجاری xrProOS را ثبت کرده است تا رونمایی هدست واقعیت ترکیبی</h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar16.webp" alt="akhbar">
+                    </div>
+                </div>
+                <div class="akhbar">
+                    <div class="akhbarMatn">
+                        <h4> افزایش علاقه چینی‌ها برای احیای مُردگان با هوش مصنوعی </h4>
+
+                        <h6> چینی‌ها با هوش مصنوعی، چت‌بات‌هایی از افراد فوت‌شده توسعه داده‌اند که شخصیت و رفتار و حتی صدای آن‌ها را با دقت زیاد تقلید می‌کنند. </h6><br><br>
+
+                        <div>
+                            <div>
+                                <svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg> 5
+                            </div>
+                            <div>
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                                30دقیقه 
+                            </div>
+                            <div>
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="akhbarImg">
+                        <img src="./img/akhbar1.webp" alt="akhbar">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--  behtarin maghalat -->
+    <div class="pishnahad behtarin">
+        <div class="titrPishnahad">
+            <h3><span class="redline">|&nbsp;</span>بهترین مقالات</h3><br><br>
+            <div class="zirPishnahad zirPishnahadmedia">
+                <a href=""><div class="selecter selector">
+                    پربازدید‌ترین‌های 
+                </div></a>
+
+                <a href=""><div class="selecter">
+                    محبوب‌ترین
+                </div></a>
+                <a href=""><div class="selecter">
+                    پربحث‌ترین                </div></a>
+                <a href=""><div class="selecter">
+                    آموزش
+                </div></a>
+                <a href=""><div class="selecter">
+                    راهنمای
+                </div></a>
+            </div>
+            <div id="photosPishnahad">
+                <div class="arrowPishnahad"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>
+                <div class="photoPishnahad photoPishnahadMedia"><a href="#"><img src="./img/pz1.webp" alt="photo"></a> <p> بهترین گوشی های مناسب عکاسی در بازار ایران [اردیبهشت ۱۴۰۲] </p>
+                    <div class="pishnahadComment"> 
+                    <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                    <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                    <div class="pishnahadCommentDiv1">&nbsp;</div>
+                    <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                </div></div>
+                <div class="photoPishnahad photoPishnahadMedia"><a href="#"><img src="./img/pz2.webp" alt="photo"></a> <p> بهترین گوشی های موبایل بازار ایران [اردیبهشت ماه ۱۴۰۲] </p>
+                    <div class="pishnahadComment"> 
+                        <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                        <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                        <div class="pishnahadCommentDiv1">&nbsp;</div>
+                        <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                    </div>
+                </div>
+                <div class="photoPishnahad"><a href="#"><img src="./img/pz3.webp" alt="photo"></a> <p> نرخ جدید کارمزد خدمات الکترونیکی بانکی ابلاغ شد </p>
+                    <div class="pishnahadComment"> 
+                        <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                        <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                        <div class="pishnahadCommentDiv1">&nbsp;</div>
+                        <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                    </div></div>
+                <div class="photoPishnahad"><a href="#"><img src="./img/pz4.webp" alt="photo"></a> <p> بهترین گوشی های گیمینگ و مخصوص بازی [اردیبهشت ۱۴۰۲] </p>
+                    <div class="pishnahadComment"> 
+                        <div class="pishnahadCommentDiv"><svg fill="#ffffff" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-right</title> <path d="M30.893 28.023c-1.685-1.617-2.921-3.69-3.509-6.021l-0.019-0.087c1.754-1.973 2.841-4.575 2.885-7.429l0-0.009c0-6.961-6.617-12.624-14.75-12.624s-14.75 5.663-14.75 12.624 6.617 12.625 14.75 12.625c1.851-0.001 3.632-0.3 5.298-0.851l-0.119 0.034c2.543 1.908 5.61 3.262 8.946 3.822l0.122 0.017c0.076 0.016 0.163 0.026 0.252 0.026 0.691 0 1.251-0.56 1.251-1.251 0-0.34-0.136-0.649-0.357-0.875l0 0zM21.766 23.982c-0.047-0.035-0.1-0.068-0.156-0.097l-0.007-0.003c-0.061-0.047-0.131-0.091-0.204-0.127l-0.007-0.003c-0.133-0.041-0.291-0.074-0.454-0.093l-0.014-0.001c-0.098 0.004-0.19 0.019-0.278 0.044l0.009-0.002c-0.064 0.005-0.123 0.015-0.18 0.028l0.008-0.002c-1.465 0.554-3.159 0.875-4.928 0.875-0.019 0-0.038-0-0.057-0h0.003c-6.755 0-12.25-4.543-12.25-10.125s5.495-10.124 12.25-10.124c6.754 0 12.25 4.542 12.25 10.124-0.025 2.459-1.034 4.678-2.652 6.285l-0 0c-0.021 0.021-0.027 0.050-0.046 0.072-0.157 0.178-0.259 0.409-0.275 0.663l-0 0.003c-0.006 0.047-0.010 0.101-0.010 0.156 0 0.031 0.001 0.061 0.003 0.091l-0-0.004c0.003 0.032-0.008 0.062-0.003 0.095 0.331 1.835 0.989 3.47 1.917 4.915l-0.032-0.054c-1.886-0.602-3.516-1.531-4.904-2.732l0.018 0.015z"></path> </g></svg><h4>11</h4> </div>
+                        <div class="pishnahadCommentDiv"><svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg><h4> یک روز پیش</h4></div>
+                        <div class="pishnahadCommentDiv1">&nbsp;</div>
+                        <div class="pishnahadCommentDiv"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / More_Horizontal"> <g id="Vector"> <path d="M17 12C17 12.5523 17.4477 13 18 13C18.5523 13 19 12.5523 19 12C19 11.4477 18.5523 11 18 11C17.4477 11 17 11.4477 17 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 12C5 12.5523 5.44772 13 6 13C6.55228 13 7 12.5523 7 12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" stroke="#c2c2c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> </g></svg></div>
+                    </div></div>
+                <div class="arrowPishnahad"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>    
+            </div>
+        </div>
+    </div>
+    <!-- pishnahad zoomit -->
+    <div class="pishnahad pishnahadzoomit">
+        <div class="titrPishnahad">
+            <h3><span class="redline">|&nbsp;</span>پیشنهاد زومیت</h3><br><br>
+            <div class="zirPishnahad zirPishnahadmedia">
+                <a href=""><div class="selecter selector">
+                    آموزش‌های
+
+                </div></a>
+                <a href=""><div class="selecter">
+                    راهنمای
+                </div></a>
+                <a href=""><div class="selecter">
+                    موبایل
+                </div></a>
+                <a href=""><div class="selecter">
+                    سخت‌افزار
+                </div></a>
+                <a href=""><div class="selecter">
+                    بررسی
+                </div></a>
+                <a href=""><div class="selecter">
+                    شاتر
+                </div></a>
+            </div>
+            <div id="photosPishnahad">
+                <div class="arrowPishnahad"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>
+                <div class="porbazdidAks2 pishnahadzom pishnahadzomMedia">
+                    <div class="porbazdidAks3 "><a href="#"><img src="./img/pishzoomit4.webp" alt="porbazdid"></a><div class="porbadidMatn"> <p> ایمیل یکبار مصرف </p> </div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+
+                 </div>
+                    <div class="porbazdidAks3"><a href="#"><img src="./img/pishzoomit3.webp" alt="porbazdid"></a><div class="porbadidMatn"> <p> ساخت اپل آیدی Apple ID </p> </div>
+                    <div class="porbazdidsat">
+                        <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                        مطالئه 6 
+
+                    </div>
+                    <div class="porbazdidtag">
+
+                        <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                         3 روز پیش  
+                    </div>
+                </div>
+            </div>
+            <div class="porbazdidAks2 pishnahadzom">
+                <div class="porbazdidAks3 "><a href="#"><img src="./img/pishzoomit1.webp" alt="porbazdid"></a><div class="porbadidMatn"> <p> دانلود استوری اینستاگرام</p> </div>
+                <div class="porbazdidsat">
+                    <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                    مطالئه 6 
+
+                </div>
+                <div class="porbazdidtag">
+
+                    <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                     3 روز پیش  
+                </div>
+
+             </div>
+                <div class="porbazdidAks3"><a href="#"><img src="./img/pishzoomit2.webp" alt="porbazdid"></a><div class="porbadidMatn"> <p>آموزش ساخت کاور</p> </div>
+                <div class="porbazdidsat">
+                    <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 12a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0zM12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM11 7a1 1 0 1 1 2 0v5h4a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1V7z" fill="#ffffff"></path></g></svg>
+                    مطالئه 6 
+
+                </div>
+                <div class="porbazdidtag">
+
+                    <svg width="16px" height="16px" viewBox="0 0 24 24" fill="ffffff" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5ZM19 7H5V17H19V7Z" fill="#ffffff"></path> <path d="M3 7C3 5.89543 3.89543 5 5 5H19C20.1046 5 21 5.89543 21 7C21 8.10457 20.1046 9 19 9H5C3.89543 9 3 8.10457 3 7Z" fill="#ffffff"></path> <path d="M7 7C6.44772 7 6 6.55228 6 6V4C6 3.44772 6.44772 3 7 3C7.55228 3 8 3.44772 8 4V6C8 6.55228 7.55228 7 7 7Z" fill="#ffffff"></path> <path d="M17 7C16.4477 7 16 6.55228 16 6V4C16 3.44772 16.4477 3 17 3C17.5523 3 18 3.44772 18 4V6C18 6.55228 17.5523 7 17 7Z" fill="#ffffff"></path> </g></svg>
+                     3 روز پیش  
+                </div>
+            </div>
+        </div>
+                <div class="arrowPishnahad"><a href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#9696a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg></a></div>    
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+       <div class="footer1">
+            <div class="footer11">
+                <div class="footer111">
+                    <div></div>
+                    <br>
+                    <p>
+                        
+                        <a href="#">مرور تمامی مطالب  </a>   
+                        <br>
+                        <a href="#">تبلیغات در زومیت</a> 
+                        <br>
+                        <a href="#"> تماس با ما</a>
+                        <br>
+                        <a href="#">درباره ما</a> 
+                    </p>
+                </div>
+                <div class="footer112">
+                    <p>
+                      
+                         <a href="#"> حامیان زومیت</a>
+                        <br><br>
+                        <a href="#">پارس پک | میزبانی و پشتیبانی</a> 
+                        <br>
+                        <a href="#">وب رخ | حس خوب پیکسل‌ها</a> 
+                        <br>
+                        <a href="#"> TheForge | هسته قدرتمند زومیت</a>
+                        </p>
+                </div>
+            </div>
+            <div class="footer12">
+                خانواده ما
+                
+                <div><a href="#"><img src="/img/zommm.png" alt="zoomit"></a></div>
+            </div>
+       </div>
+       <div class="footer2">
+            <div class="footer21">
+                <p> © 1402 - 1389 کپی بخش یا کل هر کدام از مطالب زومیت تنها با کسب مجوز مکتوب امکان پذیر است </p>
+            </div>
+            <div class="footer22">
+                <a href="https://www.zoomit.ir/feed/" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="#9696a0"><defs><filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix></filter><image id="image7" width="16" height="16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAJ0lEQVQ4jWNgoBAwMjAwMPz/w/yfLM0sfxmZKHXBqAGjBowaQCUAACboBBz/9bsEAAAAAElFTkSuQmCC"></image><mask id="mask0"><g filter="url(#alpha)"><use href="#image7"></use></g></mask><clipPath id="clip1"><rect x="0" y="0" width="16" height="16"></rect></clipPath><g id="surface6" clip-path="url(#clip1)"><path d="M 3 11 C 4.105469 11 5 11.894531 5 13 C 5 14.105469 4.105469 15 3 15 C 1.894531 15 1 14.105469 1 13 C 1 11.894531 1.894531 11 3 11 Z M 1 1 C 8.699219 1 15 7.300781 15 15 L 12.300781 15 C 12.300781 8.800781 7.199219 3.699219 1 3.699219 Z M 1 5.699219 C 6.101562 5.699219 10.300781 9.898438 10.300781 15 L 7.699219 15 C 7.699219 11.300781 4.699219 8.300781 1 8.300781 Z M 1 5.699219 "></path></g></defs><g id="surface1"><use href="#surface6" mask="url(#mask0)"></use></g></svg></a><a href="https://fa.wikipedia.org/wiki/%D8%B2%D9%88%D9%85%DB%8C%D8%AA" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="#9696a0"><g id="surface1"><path d="M 15 0 C 15.550781 0 16 0.449219 16 1 L 16 15 C 16 15.550781 15.550781 16 15 16 L 1 16 C 0.449219 16 0 15.550781 0 15 L 0 1 C 0 0.449219 0.449219 0 1 0 Z M 4.460938 4 L 1 4 L 1 4.234375 C 1.261719 4.253906 1.472656 4.300781 1.628906 4.375 C 1.78125 4.449219 1.914062 4.550781 2.019531 4.683594 C 2.089844 4.765625 2.3125 4.996094 2.480469 5.375 L 6.039062 12.75 L 6.273438 12.75 L 8.074219 9.050781 L 9.859375 12.75 L 10.09375 12.75 L 13.640625 5.46875 C 13.816406 5.046875 14.078125 4.730469 14.304688 4.523438 C 14.460938 4.382812 14.695312 4.289062 15 4.234375 L 15 4 L 12.402344 4 L 12.402344 4.234375 L 12.511719 4.253906 C 12.804688 4.296875 12.945312 4.378906 13.070312 4.488281 C 13.191406 4.601562 13.253906 4.71875 13.253906 4.839844 C 13.253906 5.027344 13.089844 5.367188 12.886719 5.855469 L 10.320312 10.808594 L 8.710938 7.742188 L 9.816406 5.46875 C 9.992188 5.046875 10.257812 4.730469 10.484375 4.523438 C 10.640625 4.382812 10.871094 4.289062 11.179688 4.234375 L 11.179688 4 L 8.582031 4 L 8.582031 4.234375 L 8.691406 4.253906 C 8.984375 4.296875 9.125 4.378906 9.246094 4.488281 C 9.371094 4.601562 9.429688 4.71875 9.429688 4.839844 C 9.429688 5.027344 9.265625 5.367188 9.066406 5.855469 L 8.398438 7.140625 L 7.691406 5.792969 C 7.496094 5.347656 7.398438 5.019531 7.398438 4.808594 C 7.398438 4.65625 7.457031 4.53125 7.574219 4.433594 C 7.695312 4.339844 7.886719 4.269531 8.285156 4.234375 L 8.285156 4 L 4.820312 4 L 4.820312 4.234375 C 5.085938 4.253906 5.296875 4.300781 5.449219 4.375 C 5.605469 4.449219 5.734375 4.550781 5.84375 4.683594 C 5.910156 4.765625 6.136719 4.996094 6.300781 5.375 L 7.753906 8.382812 L 6.496094 10.808594 L 3.867188 5.792969 C 3.671875 5.347656 3.574219 5.019531 3.574219 4.808594 C 3.574219 4.65625 3.632812 4.53125 3.753906 4.433594 C 3.871094 4.339844 4.0625 4.269531 4.460938 4.234375 Z M 4.460938 4 "></path></g></svg></a><a href="https://www.linkedin.com/company/zoomit" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9696a0"><g><path d="M23 0H1a.945.945 0 0 0-1 1v22a.945.945 0 0 0 1 1h22a.945.945 0 0 0 1-1V1a.945.945 0 0 0-1-1zM7.1 20.5H3.6V9h3.6v11.5zM5.3 7.4a2.1 2.1 0 1 1 2.1-2.1 2.051 2.051 0 0 1-2.1 2.1zm15.2 13.1h-3.6v-5.6c0-1.3 0-3-1.8-3-1.9 0-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6a3.717 3.717 0 0 1 3.4-1.8c3.6 0 4.3 2.4 4.3 5.5z"></path></g></svg></a><a href="https://www.instagram.com/thezoomit/" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="#9696a0"><path d="M12 0c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8zm0 2H4c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068c.53 0 .96.43.96.96s-.43.96-.96.96-.96-.43-.96-.96.43-.96.96-.96z"></path></svg></a><a href="https://www.aparat.com/zoomit" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="#9696a0"><path d="M14.412 12.022l-.414 1.832c-.16.712-.597 1.33-1.214 1.72-.555.351-1.215.49-1.86.397l-.215-.04-1.817-.41c2.326-.274 4.328-1.605 5.52-3.499zM8 1.262c3.72 0 6.737 3.017 6.737 6.738 0 3.72-3.016 6.737-6.737 6.737S1.263 11.72 1.263 8 4.279 1.263 8 1.263zM.478 8.893c.263 2.23 1.497 4.16 3.266 5.367l.233.153-1.832-.414c-.712-.16-1.33-.597-1.72-1.214-.35-.555-.49-1.215-.397-1.86l.04-.215.41-1.817zm9.206.371c-.93 0-1.684.754-1.684 1.684 0 .93.754 1.685 1.684 1.685.93 0 1.684-.755 1.684-1.685s-.754-1.684-1.684-1.684zM5.052 8c-.93 0-1.684.754-1.684 1.684 0 .93.754 1.684 1.684 1.684.93 0 1.685-.754 1.685-1.684C6.737 8.754 5.982 8 5.052 8zm3.374-.746c-.263-.154-.59-.154-.853 0-.263.155-.422.44-.415.746.01.457.384.823.842.823.458 0 .831-.366.841-.824.007-.305-.152-.59-.415-.745zm2.521-2.623c-.93 0-1.684.754-1.684 1.684 0 .93.754 1.685 1.684 1.685.93 0 1.685-.754 1.685-1.685 0-.93-.755-1.684-1.685-1.684zm1.075-3.044l1.832.414c1.427.322 2.343 1.7 2.11 3.125l-.032.164-.41 1.817c-.275-2.325-1.606-4.327-3.5-5.52zM6.315 3.368c-.93 0-1.684.754-1.684 1.684 0 .93.754 1.685 1.684 1.685.93 0 1.685-.755 1.685-1.685s-.754-1.684-1.685-1.684zM5.076.028l.215.04 1.817.41C4.878.74 2.948 1.975 1.74 3.744l-.153.233.414-1.832c.16-.712.598-1.33 1.215-1.72.555-.35 1.215-.49 1.86-.397z"></path></svg></a><a href="https://www.youtube.com/c/ZoomitTV" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="#9696a0"><path d="M15.8 4.8c-.2-1.3-.8-2.2-2.2-2.4C11.4 2 8 2 8 2s-3.4 0-5.6.4C1 2.6.3 3.5.2 4.8 0 6.1 0 8 0 8s0 1.9.2 3.2c.2 1.3.8 2.2 2.2 2.4C4.6 14 8 14 8 14s3.4 0 5.6-.4c1.4-.3 2-1.1 2.2-2.4C16 9.9 16 8 16 8s0-1.9-.2-3.2zM6 11V5l5 3-5 3z" transform="translate(-1228.000000, -1286.000000) translate(1228.000000, 1286.000000)"></path></svg></a><a href="https://t.me/thezoomit/" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="#9696a0"><path d="M15.968 1.293c-.026-.128-.114-.23-.232-.269-.21-.044-.428-.028-.63.048 0 0-14.019 5.348-14.82 5.94-.172.128-.23.202-.259.289-.138.424.293.608.293.608l3.613 1.25c.061.01.124.007.183-.012.822-.551 8.27-5.543 8.7-5.711.068-.021.118 0 .1.052-.172.637-6.606 6.707-6.641 6.744-.035.031-.053.078-.049.126l-.337 3.744s-.142 1.168.956 0c.779-.826 1.527-1.512 1.9-1.844 1.242.91 2.579 1.917 3.156 2.441.195.202.46.31.732.3.34-.044.618-.307.7-.66 0 0 2.561-10.906 2.646-12.374.008-.143.021-.23.021-.337.004-.112-.007-.225-.032-.335z"></path></svg></a><a href="https://twitter.com/thezoomit/" rel="nofollow" target="_blank" class="Footer__Link-wix45t-8 fplhMF"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="#9696a0"><path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"></path></svg></a>
+            </div>
+       </div>
+    </footer>
+</body>
+</html>
